@@ -1,0 +1,1 @@
+Classic JS project in OOP style. Multi-page web application for an IT company. the project uses the ES6 standard, all functionality is described in classes. The application is built using the gulp project builder.
