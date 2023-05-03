@@ -40,9 +40,9 @@ window.addEventListener('DOMContentLoaded', () => {
         activeClass: 'feed__item-active'
     });
     feedSlider.init();
-
-    const player = new VideoPlayer('.showup .play', '.overlay');
-    player.init();
+    
+    new VideoPlayer('.showup .play', '.overlay').init();
+    new VideoPlayer('.module__video-item .play', '.overlay').init();
 
     new Difference('.officerold', '.officernew', '.officer__card-item').init();
     new Form('.form').init();
